@@ -9,7 +9,26 @@
 link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">//匯入bootstrap
 
   <title>資工系系隊</title>
+  <script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
+  <script type='text/javascript'>
+  $(function(){
+  	var w = $("#mwt_slider_content").width();
+  	$('#mwt_slider_content').css('height', ($(window).height() - 20) + 'px' ); //將區塊自動撐滿畫面高度
 
+  	$("#mwt_fb_tab").mouseover(function(){ //滑鼠滑入時
+  		if ($("#mwt_mwt_slider_scroll").css('left') == '-'+w+'px')
+  		{
+  			$("#mwt_mwt_slider_scroll").animate({ left:'0px' }, 600 ,'swing');
+  		}
+  	});
+
+
+  	$("#mwt_slider_content").mouseleave(function(){　//滑鼠離開後
+  		$("#mwt_mwt_slider_scroll").animate( { left:'-'+w+'px' }, 600 ,'swing');
+  	});
+  });
+
+  </script>
   <SCRIPT Language="JavaScript">
 <!--
 // Valor工作室小誌 [valor Studio]
@@ -39,27 +58,61 @@ function go()
 
 </HEAD>
 </head>
-<BODY onLoad="setTimeout('start()',speed);">
 
+<BODY onLoad="setTimeout('start()',speed);">
+  <header>
+
+  </header>
+  <div id="mwt_mwt_slider_scroll">
+   <div id="mwt_fb_tab">
+      <span>M</span>
+      <span>E</span>
+      <span>N</span>
+      <span>U</span>
+
+  </div>
+  <div id="mwt_slider_content">
+    <div class="sidebar-follow">
+
+                  <ul>
+                      <li><a href="#"><img src="img/icon.png"></a></li>
+                      <li><a href="#"><img src="img/volleyball.png"></a></li>
+                      <li><a href="#"><img src="img/ball-of-basketball.png"></a></li>
+                      <li><a href="#"><img src="img/leader-with-loudspeaker.png"></a></li>
+                      <li><a href="#"><img src="img/racing-flag.png"></a></li>
+                      <li><a href="#"><img src="img/photo-camera.png"></a></li>
+                      <li class="search">
+                      </li>
+                  </ul>
+
+          </div>
+  </div>
+  </div>
 
   <main>
         <div id="container">
 		 <!-- end header div-->
             <a href="javascript:go()"><img src="img/homepage_main2.jpg" alt="cover-photo" id="cover-photo" name="imgs"></a>
-            <div class="volleyball">
 
-            </div>
-	     <div class="volleyball">
-           <a href="#"><img src="img/WL2017_CTA_Bidding.jpg" alt="volleyball" id="volleyball"></a>
+	       <div class="volleyball">
+             <a href="#"><img src="img/WL2017_CTA_Bidding.jpg" alt="volleyball" id="volleyball"></a>
+
+           <div class="learnmore">
+               <P>    Learn more→    </P>
+           </div>
+
        </div>
        <div class="backetball">
                 <a href="#"><img src="img/1.jpg" alt="basketball"id="basketball"></a>
+                <div class="learnmore2">
+                    <P>    Learn more→    </P>
+                </div>
         </div>
         </div><!-- end main div-->
 
    </main>
     <footer>
-  <p>Follow us</p>
+
   <div class="social">
     <a href="#"><img src="./img/facebook.png" alt="facebook"></a>
     <a href="#"><img src="./img/instagram.png" alt="instagram" id="special"></a>
