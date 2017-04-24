@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">//匯入bootstrap
+
+  <title>資工系系隊</title>
+
+  <SCRIPT Language="JavaScript">
+<!--
+// Valor工作室小誌 [valor Studio]
+var speed = 3000
+var img= new Array()
+var url= new Array()
+var current = 0
+img[0] = new Image(); img[0].src = "img/homepage_main1.jpg";
+img[1] = new Image(); img[1].src = "img/21-08-2016-Volleyball-Men-04.jpg";
+img[2] = new Image(); img[2].src = "img/6.jpg";
+img[3] = new Image(); img[3].src = "img/homepage_learnmore.jpg";
+
+
+function start()
+{
+current++
+if(current >=img.length) current = 0
+document.imgs.src = img[current].src
+setTimeout("start()",speed);
+}
+
+function go()
+{window.location = url[current]}
+//-->
+</SCRIPT>
+
+
+</HEAD>
+</head>
+<BODY onLoad="setTimeout('start()',speed);">
+
+
+  <main>
+        <div id="container">
+		 <!-- end header div-->
+            <a href="javascript:go()"><img src="img/homepage_main2.jpg" alt="cover-photo" id="cover-photo" name="imgs"></a>
+            <div class="volleyball">
+
+            </div>
+	     <div class="volleyball">
+           <a href="#"><img src="img/WL2017_CTA_Bidding.jpg" alt="volleyball" id="volleyball"></a>
+       </div>
+       <div class="backetball">
+                <a href="#"><img src="img/1.jpg" alt="basketball"id="basketball"></a>
+        </div>
+        </div><!-- end main div-->
+
+   </main>
+    <footer>
+  <p>Follow us</p>
+  <div class="social">
+    <a href="#"><img src="./img/facebook.png" alt="facebook"></a>
+    <a href="#"><img src="./img/instagram.png" alt="instagram" id="special"></a>
+    <a href="#"><img src="./img/twitter.png" alt="twitter"></a>
+  </div>
+  <p>Copyright © 2017 Swan Office Park15-23 Bucharest North AvenueVoluntari-Ilfov </p>
+</footer>
+</body>
+
+</html>
