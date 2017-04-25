@@ -4,9 +4,8 @@
 }
 .container {
     max-width:100%;
-    margin: 0 auto;
-    display: inline-block;
-    padding: 0 0px;
+
+
     box-sizing: border-box;
 
 }
@@ -72,8 +71,11 @@ article, aside, footer, header, hgroup, main, nav, section {
     display: block;
 }
 header {
-    padding: 10px 0 10px 0;
-    background-color: rgb(1, 37, 63);
+
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: 150px;
 }
 
 li img {
@@ -93,16 +95,16 @@ ul, menu, dir {
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px;
 }
-
+.cover{
+   display:block;
+       padding: 0 0px;
+   margin: 50PX,46PX;
+}
 #cover-photo {
 
-  float: right;
-  padding-top: 0px;
-  height: 860px;
-    width:100%;
-    overflow: auto;
-     margin:0;
-     display:block;
+  height: 500px;
+  width:1000px;
+margin-left: 300px;
 }
 .basketball,.volleyball {
 
@@ -122,7 +124,7 @@ height: 750px;
 }
 .learnmore2 {
   position: absolute;
- top:2000px;
+ top:1800px;
  left:300px;
  width: 200px;
   border-style:ridge;
@@ -130,8 +132,8 @@ opacity:0.95;
 text-align: center;
 }
 .learnmore {
-  position: absolute;
- top:1500px;
+  position:absolute;
+ top:1200px;
  left:1300px;
  width: 200px;
   border-style:ridge;
@@ -141,6 +143,36 @@ text-align: center;
 .learnmore p ,.learnmore2{
 
   color:white;
+}
+.logo{
+
+  float: left;
+
+}
+nav {
+      float: right;
+    display: inline-block;
+    height: 75px;
+    width: 900px;
+    margin-top: 60px;
+    margin-right: 500px;
+      color: #222;
+
+
+}
+
+li {
+  display: inline-block;
+  text-align: -webkit-match-parent;
+
+}
+ul a{
+  padding-right: 30px;
+  color: #222;
+   text-decoration:none;
+  text-transform: uppercase;
+      font: 1.286em/1.056em "Trade-Gothic-W-Bold", Arial, Helvetica, sans-serif;
+    word-spacing: 1px;
 }
 footer {
     width: 100%;
@@ -158,7 +190,11 @@ footer {
     background-color: rgb(38, 38,38);
 }
 
+#logo{
 
+  width: 150px;
+  height:150px;
+}
 
 
 #special {
