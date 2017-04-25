@@ -1,5 +1,5 @@
 * {
-    font-family: sans-serif;
+    font-family:   "Trade-Gothic-W-Bold", Arial, Helvetica, sans-serif;;
     color: #FFF;
 }
 .container {
@@ -55,14 +55,14 @@ body {
 .sidebar-follow ul{
 
 
-
-  padding-right: : 10px;
+ padding-top: 20px;
+  padding-right: : 60px;
 
 }
 .sidebar-follow  li img {
     width: 50px;
     height: 50px;
-    padding-top: 10px;
+    padding-top: 30px;
     margin-right: 100px;
     padding-right: : 50px;
 
@@ -83,10 +83,7 @@ li img {
     height: 20px;
 
 }
-nav {
-    padding-top: 0px;
-    float: left;
-}
+
 ul, menu, dir {
     list-style-type: disc;
     -webkit-margin-before: 1em;
@@ -102,9 +99,9 @@ ul, menu, dir {
 }
 #cover-photo {
 
-  height: 500px;
-  width:1000px;
-margin-left: 300px;
+  height: 1000px;
+  width:100%;
+  margin-bottom: 75x
 }
 .basketball,.volleyball {
 
@@ -112,7 +109,7 @@ margin-left: 300px;
   margin-top: 0px;
 }
 #basketball {
-  width:100%;
+width:100%;
 max-width: 100%;
 height: 600px;
 }
@@ -123,8 +120,9 @@ max-width: 100%;
 height: 750px;
 }
 .learnmore2 {
+    font: 1.286em/1.056em "Trade-Gothic-W-Bold", Arial, Helvetica, sans-serif;
   position: absolute;
- top:1800px;
+ top:2300px;
  left:300px;
  width: 200px;
   border-style:ridge;
@@ -132,8 +130,9 @@ opacity:0.95;
 text-align: center;
 }
 .learnmore {
+    font: 1.286em/1.056em "Trade-Gothic-W-Bold", Arial, Helvetica, sans-serif;
   position:absolute;
- top:1200px;
+ top:1750px;
  left:1300px;
  width: 200px;
   border-style:ridge;
@@ -145,7 +144,7 @@ text-align: center;
   color:white;
 }
 .logo{
-
+ margin-left :300px;
   float: left;
 
 }
@@ -153,17 +152,44 @@ nav {
       float: right;
     display: inline-block;
     height: 75px;
-    width: 900px;
+    width: 1200px;
     margin-top: 60px;
-    margin-right: 500px;
+    margin-right:200px;
       color: #222;
 
 
 }
-
+nav>ul>li {
+    display: inline-block;
+}
+ul li:hover > ul {
+  display: block; /* 滑鼠滑入母選單後，顯示子選單 */
+}
+ul li {
+  position: relative; /* 使子選單依照母選單的座標顯示 */
+}
+nav ul li a:only-child{
+  background: none;
+  background-color: white;
+}
+ul ul {
+  color: white;
+  position: absolute;
+  top: 100%;
+  list-style: none;
+  display: none;
+  background: url(detail.png) bottom right no-repeat;
+}
+li li {
+ margin-left:  -25px;
+  padding-top: 5px;
+}
+ol ul, ul ol, ul ul, ol ol {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+}
 li {
   display: inline-block;
-  text-align: -webkit-match-parent;
 
 }
 ul a{
@@ -176,17 +202,25 @@ ul a{
 }
 footer {
     width: 100%;
+    height: 200px;
     background: rgb(38, 38, 38);
     padding: 0px 0px 0px 0px;
     margin-top: 0px;
     text-align: center;
+
 }
+.social {
+
+
+  padding-top: 20px;
+}
+
 .social img {
     width: 35px;
     height: 35px;
     text-align: center;
     vertical-align: middle;
-    padding: 0 10px;
+    padding: 010px;
     background-color: rgb(38, 38,38);
 }
 
