@@ -7,10 +7,13 @@ header {
   position: relative;
   top: 40px;
   left: 510px;
+  border-style: solid;
+  width: 600px;
 }
 
 header h1 {
   padding-left: 218px;
+  border-style: solid;
 }
 
 section {
@@ -29,4 +32,16 @@ section {
 
 .icon2 {
   padding-left: 50px;
+}
+
+.department {
+  border-style: solid;
+}
+
+.principal {
+  border-style: solid;
+}
+
+.north {
+  border-style: solid;
 }
