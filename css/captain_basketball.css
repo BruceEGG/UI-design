@@ -1,0 +1,129 @@
+
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.top {
+  position: absolute;
+  top:50px;
+  left: 600px;
+}
+
+.egg {
+  position:absolute;
+  border-style: solid;
+  top:200px;
+  left: 320px;
+}
+
+.lebron {
+  position:absolute;
+  top:200px;
+  left:25px;
+}
+
+.wade {
+  position:absolute;
+  top:40px;
+  left:900px;
+}
+
+.curry {
+  position:absolute;
+  left: 1000px;
+  bottom: 0px;
+}
+
+.contain {
+  top:200px;
+  width: 1000px;
+  position:absolute;
+  left: 600px;
+  height: 350px;
+}
+
+.intro {
+  width: 500px;
+}
+
+.intro h2 {
+  width: 150px;
+  padding-right: 0px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.intro p {
+  width: 400px;
+  margin-left: 50px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 15px;
+}
+
+.legend {
+  border-top-style: solid;
+  width: 500px;
+}
+
+.legend h2 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.legend ul {
+  margin-top: 0px;
+  list-style-type: none;
+}
+
+.phone {
+  width: 100px;
+  position: relative;
+  left: 530px;
+  bottom: 300px;
+}
+
+.phone h2 {
+  margin-bottom: 5px;
+}
+
+.phone p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 40px;
+}
+
+.fb {
+  width: 100px;
+  position: relative;
+  left: 530px;
+  bottom: 300px;
+}
+
+.fb h2 {
+  margin-bottom: 5px;
+}
+
+.fb a {
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+
+.line {
+  width: 100px;
+  position: relative;
+  left: 530px;
+  bottom: 300px;
+}
+
+.line h2 {
+  margin-bottom: 0px;
+}
+
+.line p {
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
