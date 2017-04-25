@@ -1,0 +1,32 @@
+body {
+  width: 1000px;
+  background-color: #FFFF33;
+}
+
+header {
+  position: relative;
+  top: 40px;
+  left: 510px;
+}
+
+header h1 {
+  padding-left: 218px;
+}
+
+section {
+  width: 800px;
+  left:400px;
+  position: absolute;
+  margin-top: 60px;
+  background-color: #FFFFFF;
+  border-style: solid;
+  padding: 30px;
+}
+
+.icon1 {
+  padding-right: 50px;
+}
+
+.icon2 {
+  padding-left: 50px;
+}
