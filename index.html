@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">//匯入bootstrap
 
   <title>資工系系隊</title>
   <script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
@@ -40,7 +39,6 @@ img[0] = new Image(); img[0].src = "img/homepage_main1.jpg";
 img[1] = new Image(); img[1].src = "img/21-08-2016-Volleyball-Men-04.jpg";
 img[2] = new Image(); img[2].src = "img/6.jpg";
 img[3] = new Image(); img[3].src = "img/homepage_learnmore.jpg";
-img[3] = new Image(); img[3].src = "img/homepage_main2.jpg";
 
 
 function start()
@@ -63,6 +61,21 @@ function go()
 <BODY onLoad="setTimeout('start()',speed);">
   <header>
 
+    <div class="logo">
+      <a href="#"><img src="img/系logo.png" alt="logo" id="logo"></a>
+    </div>
+          <nav>
+
+                  <ul>
+                      <li><a href="#">home</a></li>
+                      <li><a href="#">volleyball</a></li>
+                      <li><a href="#">basketball</a></li>
+                      <li><a href="#">leader</a></li>
+                      <li><a href="#">competition</a></li>
+                      <li><a href="#">picture</a></li>
+                  </ul>
+
+          </nav>
   </header>
   <div id="mwt_mwt_slider_scroll">
    <div id="mwt_fb_tab">
@@ -80,7 +93,7 @@ function go()
                       <li><a href="#"><img src="img/volleyball.png"></a></li>
                       <li><a href="#"><img src="img/ball-of-basketball.png"></a></li>
                       <li><a href="#"><img src="img/leader-with-loudspeaker.png"></a></li>
-                      <li><a href="competiton.html"><img src="img/racing-flag.png"></a></li>
+                      <li><a href="#"><img src="img/racing-flag.png"></a></li>
                       <li><a href="#"><img src="img/photo-camera.png"></a></li>
                       <li class="search">
                       </li>
@@ -93,23 +106,24 @@ function go()
   <main>
         <div id="container">
 		 <!-- end header div-->
+           <div class="cover">
             <a href="javascript:go()"><img src="img/homepage_main2.jpg" alt="cover-photo" id="cover-photo" name="imgs"></a>
-
+          </div>
 	       <div class="volleyball">
              <a href="#"><img src="img/WL2017_CTA_Bidding.jpg" alt="volleyball" id="volleyball"></a>
 
-           <div class="learnmore">
-               <P>    Learn more→    </P>
-           </div>
+                 <div class="learnmore">
+                     <P>    Learn more    </P>
+                 </div>
 
-       </div>
+         </div>
        <div class="backetball">
                 <a href="#"><img src="img/1.jpg" alt="basketball"id="basketball"></a>
                 <div class="learnmore2">
-                    <P>    Learn more→    </P>
+                    <P>    Learn more    </P>
                 </div>
         </div>
-        </div><!-- end main div-->
+      </div><!-- end main div-->
 
    </main>
     <footer>
