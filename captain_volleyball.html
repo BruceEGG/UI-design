@@ -1,26 +1,93 @@
 <!DOCTYPE html>
 <html>
-<header>
+<head>
+  <meta charset="UTF-8">
   <title>系排隊長介紹</title>
-  <link rel="stylesheet" href="">
-</header>
+  <link rel="stylesheet" href="css/captain_volleyball.css">
+  <script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
+</heade>
 <body>
-  <head>
-    <h1>系排隊長:陳郁欣</h1>
-  </head>
+  <div class="top">
+  <header>
+    <script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
+<script type='text/javascript'>
+$(function(){
+	var w = $("#mwt_slider_content").width();
+	$('#mwt_slider_content').css('height', ($(window).height() - 20) + 'px' ); //將區塊自動撐滿畫面高度
+
+	$("#mwt_fb_tab").mouseover(function(){ //滑鼠滑入時
+		if ($("#mwt_mwt_slider_scroll").css('left') == '-'+w+'px')
+		{
+			$("#mwt_mwt_slider_scroll").animate({ left:'0px' }, 600 ,'swing');
+		}
+	});
+
+
+	$("#mwt_slider_content").mouseleave(function(){　//滑鼠離開後
+		$("#mwt_mwt_slider_scroll").animate( { left:'-'+w+'px' }, 600 ,'swing');
+	});
+});
+
+</script>
+    <h1>系籃隊長:莫鎮瑋</h1>
+  </header>
+  <div id="mwt_mwt_slider_scroll">
+   <div id="mwt_fb_tab">
+      <span>M</span>
+      <span>E</span>
+      <span>N</span>
+      <span>U</span>
+
+  </div>
+  <div id="mwt_slider_content">
+    <div class="sidebar-follow">
+
+                  <ul>
+                      <li><a href="index.html"><img src="img/icon.png"></a></li>
+                      <li><a href="intro_volleyball.html"><img src="img/volleyball.png"></a></li>
+                      <li><a href="intro_volleyball.html"><img src="img/ball-of-basketball.png"></a></li>
+                      <li><a href="captain_basketball.html"><img src="img/leader-with-loudspeaker.png"></a></li>
+                      <li><a href="competition.html"><img src="img/racing-flag.png"></a></li>
+                      <li><a href="photo.html"><img src="img/photo-camera.png"></a></li>
+                      <li class="search">
+                      </li>
+                  </ul>
+
+          </div>
+  </div>
+  </div>
+
+</div>
   <section>
-    <h2>自我介紹</h2>
-    <p>..</p>
-    <h2>戰績</h2>
-    <ul>
-      <li></li>
-    </ul>
-    <h2>電話</h2>
-    <p></p>
-    <h2>FB</h2>
-
-    <h2>LINE</h2>
-
-  </section>
+    <img class="egg" src="img/le.png" width="250" height="300">
+    <img class="lebron" src="img/captain_lebron.png" width="350" height="400">
+    <img class="wade" src="img/captain_wade.png" width="250" height="300">
+    <img class="curry" src="img/captain_curry.png" width="350" height="300">
+    <div class="contain">
+      <div class="intro">
+        <h2>自我介紹:</h2>
+        <p>閃電俠的速度,irving的舉球,curry的強度，目前在在系上帶領年輕球員成長，望他們能有朝一日能為資工系隊奉獻，個性活潑，可以開玩笑,可嘴砲,可黃腔。</p>
+      </div>
+      <div class="legend">
+        <h2>戰績:</h2>
+        <ul>
+          <li>103年小資盃MVP</li>
+          <li>105年小資盃助攻王</li>
+        </ul>
+      </div>
+      <div class="phone">
+        <h2>電話:</h2>
+        <p>09123456</p>
+      </div>
+      <div class="fb">
+        <h2>FB:</h2>
+        <a href="https://www.facebook.com/profile.php?id=100002699284308" title="邱彥淳"><img src="img/captain_basketball_iconFB.png" width="50px" height="50px"></a>
+      </div>
+      <div class="line">
+        <h2>LINE:</h2>
+        <p>bru123456</p>
+      </div>
+    </div>
+    </section>
 </body>
 </html>
