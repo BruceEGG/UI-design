@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="@import url(//fonts.googleapis.com/earlyaccess/cwtexfangsong.css">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>資工系系隊</title>
+  <script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
+  <script type='text/javascript'>
+  $(function(){
+  	var w = $("#mwt_slider_content").width();
+  	$('#mwt_slider_content').css('height', ($(window).height() - 20) + 'px' ); //將區塊自動撐滿畫面高度
+
+  	$("#mwt_fb_tab").mouseover(function(){ //滑鼠滑入時
+  		if ($("#mwt_mwt_slider_scroll").css('left') == '-'+w+'px')
+  		{
+  			$("#mwt_mwt_slider_scroll").animate({ left:'0px' }, 600 ,'swing');
+  		}
+  	});
+
+
+  	$("#mwt_slider_content").mouseleave(function(){　//滑鼠離開後
+  		$("#mwt_mwt_slider_scroll").animate( { left:'-'+w+'px' }, 600 ,'swing');
+  	});
+  });
+
+  </script>
+  <SCRIPT Language="JavaScript">
+<!--
+// Valor工作室小誌 [valor Studio]
+var speed = 3000
+var img= new Array()
+var url= new Array()
+var current = 0
+img[0] = new Image(); img[0].src = "img/index_img1.jpg";
+img[1] = new Image(); img[1].src = "img/123.jpg";
+img[2] = new Image(); img[2].src = "img/2075.jpg";
+img[3] = new Image(); img[3].src = "img/homepage_learnmore.jpg";
+
+
+function start()
+{
+current++
+if(current >=img.length) current = 0
+document.imgs.src = img[current].src
+setTimeout("start()",speed);
+}
+
+function go()
+{window.location = url[current]}
+//-->
+</SCRIPT>
+
+
+</HEAD>
+</head>
+
+<BODY onLoad="setTimeout('start()',speed);">
+  <header>
+
+    <div class="logo">
+      <a href="#"><img src="img/系logo.png" alt="logo" id="logo"></a>
+    </div>
+          <nav>
+                  <ul>
+                      <li><a href="index.html">home</a></li>
+                      <li><a href="intro_volleyball.html">volleyball</a></li>
+                      <li><a href="intro_basketball.html">basketball</a></li>
+                          <li>
+                            <a href="#"> caption </a>
+                        <ul>
+                            <li><a href="captain_volleyball.html">volleyball </a></li>
+                            <li><a href="captain_basketball.html">basketball </a></li>
+                        </ul>
+                        </li>
+                      <li><a href="competition.html">competition</a></li>
+                      <li><a href="photo.html">picture</a></li>
+                  </ul>
+          </nav>
+
+  </header>
+
+
+  <main>
+        <div id="container">
+		 <!-- end header div-->
+           <div class="cover">
+            <a href="javascript:go()"><img src="img/index_img1.jpg" alt="cover-photo" id="cover-photo" name="imgs"></a>
+          </div>
+	       <div class="volleyball">
+             <img src="img/WL2017_CTA_Bidding.jpg" alt="volleyball" id="volleyball">
+                  <div class= "itor_volleyball">
+
+                          <p> 快如閃電,其疾如風<br>
+                          &nbsp  &nbsp  &nbsp &nbsp  侵掠如火,其徐如林<br>
+                          &nbsp  &nbsp  &nbsp &nbsp   &nbsp  &nbsp  &nbsp   &nbsp不動如山,穿梭在球場之間....<br></p>
+
+                  </div>
+                 <div class="learnmore">
+                      <a href="intro_volleyball.html">    Learn more  </a>
+                 </div>
+
+         </div>
+       <div class="backetball">
+                <img src="img/1.jpg" alt="basketball"id="basketball">
+                <div class="learnmore2">
+                     <a href="intro_basketball.html">    Learn more   </a>
+                </div>
+        </div>
+      </div><!-- end main div-->
+
+   </main>
+    <footer>
+
+  <div class="social">
+    <a href="#"><img src="./img/facebook.png" alt="facebook"></a>
+    <a href="#"><img src="./img/instagram.png" alt="instagram" id="special"></a>
+    <a href="#"><img src="./img/twitter.png" alt="twitter"></a>
+  </div>
+  <p>Copyright © 2017 Swan Office Park15-23 Bucharest North AvenueVoluntari-Ilfov </p>
+</footer>
+</body>
+
+</html>
