@@ -1,6 +1,11 @@
-body {
-  background-color: #000000;
+*{
   color: #FFFFFF;
+}
+body {
+
+  background-image: url(https://images.pexels.com/photos/56011/rush-meadow-ornamental-grass-spring-56011.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #mwt_mwt_slider_scroll
 {
