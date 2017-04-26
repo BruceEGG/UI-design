@@ -1,13 +1,10 @@
 
 body {
-
+  margin: 0;
     background color : white;
-
 }
 
 #div {
-  background: #000;
-   margin: 0 auto;
       max-width:1000px;
   }
 @font-face {
@@ -29,6 +26,7 @@ header {
     background-color: white;
     width: 100%;
     height: 150px;
+    margin-bottom: 10px;
 }
 
 li img {
@@ -52,15 +50,12 @@ ul, menu, dir {
 }
 
 nav {
-
+  position: relative;
       float: right;
-    display: inline-block;
     height: 75px;
-    width: 1000px;
     margin-top: 60px;
-    margin-right:200px;
       color: #222;
-
+      right: 450px;
 
 }
 nav>ul>li {
@@ -94,14 +89,15 @@ ol ul, ul ol, ul ul, ol ol {
 }
 li {
   display: inline-block;
-
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
 ul a{
   padding-right: 30px;
   color: #222;
    text-decoration:none;
   text-transform: uppercase;
-      font: 1.286em/1.056em "Trade-Gothic-W-Bold", Arial, Helvetica, sans-serif;
+      font: 1.286em "Trade-Gothic-W-Bold", Arial, Helvetica, sans-serif;
     word-spacing: 1px;
 }
 footer {
@@ -188,11 +184,7 @@ margin-bottom: 0px;
   width: 100px;
   height: 100px;
 }
- li {
-  display: inline-block;
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
+
 .block li p{
      font-family: 'cwTeXFangSong', serif;
   word-spacing: 1px;
@@ -233,27 +225,4 @@ text-align:center;
  left:700px;
  position: absolute;
 
-}
-footer {
-    width: 100%;
-    height: 200px;
-    background: rgb(39, 39,39);
-    padding: 0px 0px 0px 0px;
-    margin-top: 0px;
-    text-align: center;
-
-}
-.social {
-
-
-  padding-top: 20px;
-}
-
-.social img {
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    vertical-align: middle;
-    padding: 010px;
-    background-color: rgb(38, 38,38);
 }
