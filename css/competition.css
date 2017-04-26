@@ -1,28 +1,24 @@
 body {
   width: 1000px;
-  background-color: #FFFF33;
 }
 
 header {
   position: relative;
   top: 40px;
   left: 510px;
-  border-style: solid;
   width: 600px;
 }
 
 header h1 {
   padding-left: 218px;
-  border-style: solid;
+  margin-bottom: 0px;
 }
 
 section {
   width: 800px;
   left:400px;
   position: absolute;
-  margin-top: 60px;
-  background-color: #FFFFFF;
-  border-style: solid;
+  margin-top: 35px;
   padding: 30px;
 }
 
@@ -34,14 +30,59 @@ section {
   padding-left: 50px;
 }
 
+.pic1 {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+
+.pic2 {
+  position: absolute;
+  left: 1150px;
+  top:230px;
+}
+
+.pic3 {
+  position: absolute;
+  top: 1200px;
+  left: 50px;
+}
+
+.pic4 {
+  position: absolute;
+  top:1100px;
+  left: 1150px;
+}
+
+.pic5 {
+  position: absolute;
+  top: 650px;
+  left:20px;
+}
+
+.pic6 {
+  position: absolute;
+  left:1100px;
+  top: 600px;
+}
+
 .department {
-  border-style: solid;
+  border-bottom-style: solid;
 }
 
 .principal {
-  border-style: solid;
+  border-bottom-style: solid;
 }
 
 .north {
-  border-style: solid;
+}
+
+section p {
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+section a {
+  text-decoration: none;
 }
