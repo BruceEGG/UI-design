@@ -1,62 +1,11 @@
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8">
-<title>照片集錦</title>
-<link rel="stylesheet" href="css/photo.css">
-
-
-</head>
-
 <header>
-
-  <script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
-<script type='text/javascript'>
-$(function(){
-var w = $("#mwt_slider_content").width();
-$('#mwt_slider_content').css('height', ($(window).height() - 20) + 'px' ); //將區塊自動撐滿畫面高度
-
-$("#mwt_fb_tab").mouseover(function(){ //滑鼠滑入時
-  if ($("#mwt_mwt_slider_scroll").css('left') == '-'+w+'px')
-  {
-    $("#mwt_mwt_slider_scroll").animate({ left:'0px' }, 600 ,'swing');
-  }
-});
-
-
-$("#mwt_slider_content").mouseleave(function(){　//滑鼠離開後
-  $("#mwt_mwt_slider_scroll").animate( { left:'-'+w+'px' }, 600 ,'swing');
-});
-});
-
-</script>
+  <meta charset="UTF-8">
+  <title>照片集錦</title>
+  <link rel="stylesheet" href="css/photo.css">
 </header>
-
 <body>
-  <div id="mwt_mwt_slider_scroll">
-   <div id="mwt_fb_tab">
-      <span>M</span>
-      <span>E</span>
-      <span>N</span>
-      <span>U</span>
-
-  </div>
-  <div id="mwt_slider_content">
-    <div class="sidebar-follow">
-
-                  <ul>
-                      <li><a href="index.html"><img src="img/icon.png"></a></li>
-                      <li><a href="intro_volleyball.html"><img src="img/volleyball.png"></a></li>
-                      <li><a href="intro_volleyball.html"><img src="img/ball-of-basketball.png"></a></li>
-                      <li><a href="captain_basketball.html"><img src="img/leader-with-loudspeaker.png"></a></li>
-                      <li><a href="competition.html"><img src="img/racing-flag.png"></a></li>
-                      <li><a href="photo.html"><img src="img/photo-camera.png"></a></li>
-                      <li class="search">
-                      </li>
-                  </ul>
-
-          </div>
-  </div>
-  </div>
   <div class="title">
     <h1>照片集錦</h1>
   </div>
@@ -74,11 +23,11 @@ $("#mwt_slider_content").mouseleave(function(){　//滑鼠離開後
    <div class="content_box"><img src="img/waterfall11.JPG" width="300px"></div>
    <div class="content_box"><img src="img/waterfall12.JPG" width="300px"></div>
    <div class="content_box"><img src="img/waterfall13.JPG" width="300px"></div>
-   <div class="content_box"><img src="img/waterfall14.JPG" width="300px"></div>
-   <div class="content_box"><img src="img/waterfall15.JPG" width="300px"></div>
-   <div class="content_box"><img src="img/waterfall16.JPG" width="300px"></div>
-   <div class="content_box"><img src="img/waterfall17.JPG" width="300px"></div>
-   <div class="content_box"><img src="img/waterfall18.JPG" width="300px"></div>
+   <div class="content_box"><img src="img/waterfall14.jpg" width="300px"></div>
+   <div class="content_box"><img src="img/waterfall15.jpg" width="300px"></div>
+   <div class="content_box"><img src="img/waterfall16.jpg" width="300px"></div>
+   <div class="content_box"><img src="img/waterfall17.jpg" width="300px"></div>
+   <div class="content_box"><img src="img/waterfall18.jpg" width="300px"></div>
 </div>
 </body>
 </html>

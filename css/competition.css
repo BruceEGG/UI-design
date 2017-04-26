@@ -1,5 +1,10 @@
 body {
   width: 1000px;
+    background-image: url("../img/competiton_back.jpg");
+    background-size: 100% 2000px;;
+    color: #000000;
+    font-family: Yu Gothic UI Semibold;
+    background-repeat: no-repeat;
 }
 
 header {
