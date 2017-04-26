@@ -1,0 +1,259 @@
+* {
+    font-family:   "Trade-Gothic-W-Bold", Arial, Helvetica, sans-serif;;
+    color: #FFF;
+    font: "Trade-Gothic-W-Bold", Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width:100%;
+
+
+    box-sizing: border-box;
+
+}
+#mwt_mwt_slider_scroll
+{
+	top: 0;
+	left:-100px;
+	width:100px;
+	position:fixed;
+	z-index:9999;
+}
+
+#mwt_slider_content{
+	background:WHITE;
+	text-align:center;
+	padding-top:0px;
+}
+
+#mwt_fb_tab {
+	position:absolute;
+	top:20px;
+	right:-24px;
+	width:24px;
+	background:#3c5a98;
+	color:#ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	padding:9px 0;
+
+	-moz-border-radius-topright:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+}
+#mwt_fb_tab span {
+	display:block;
+	height:12px;
+	padding:1px 0;
+	line-height:6px;
+	text-transform:uppercase;
+	font-size:12px;
+}
+body {
+    margin: 0;
+    background color : white;
+}
+.sidebar-follow ul{
+
+
+ padding-top: 20px;
+  padding-right: : 60px;
+
+}
+.sidebar-follow  li img {
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+    margin-right: 100px;
+    padding-right: : 50px;
+
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+header {
+
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: 150px;
+}
+
+li img {
+    width: 20px;
+    height: 20px;
+
+}
+
+ul, menu, dir {
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.cover{
+   display:block;
+       padding: 0 0px;
+   margin: 50PX,46PX;
+}
+#cover-photo {
+
+  height: 1000px;
+  width:100%;
+  margin-bottom: 75x
+}
+.basketball,.volleyball {
+
+  padding: 0px 0px 0px 0px;
+  margin-top: 0px;
+}
+#basketball {
+width:100%;
+max-width: 100%;
+height: 600px;
+}
+
+#volleyball {
+  width:100%;
+max-width: 100%;
+height: 750px;
+}
+.learnmore2 {
+    font: 1.286em/1.056em "Trade-Gothic-W-Bold", Arial, Helvetica, sans-serif;
+  position: absolute;
+ top:2300px;
+ left:300px;
+ width: 200px;
+ height: 40px;
+  border-style:ridge;
+opacity:0.95;
+text-decoration:none;
+text-align: center;
+padding-top:20px;
+}
+.learnmore {
+    font: 1.286em/1.056em "Trade-Gothic-W-Bold", Arial, Helvetica, sans-serif;
+  position:absolute;
+ top:1750px;
+ left:1700px;
+ width: 200px;
+ height: 40px;
+  border-style:ridge;
+opacity:0.95;
+text-decoration:none;
+text-align: center;
+padding-top:20px;
+}
+.learnmore a,.learnmore2 a{
+
+text-decoration:none;
+  color:white;
+}
+.logo{
+ margin-left :300px;
+  float: left;
+
+}
+.itor_volleyball {
+
+   position:absolute;
+   top:1600px;
+   left:1300px;
+   width: 500px;
+   height: 40px;
+}
+.itor_volleyball p {
+color: white;
+font-size: 30px;
+font-weight:bold;
+ font-family: 'cwTeXFangSong', serif;
+
+}
+
+nav {
+      float: right;
+    display: inline-block;
+    height: 75px;
+    width: 1200px;
+    margin-top: 60px;
+    margin-right:200px;
+      color: #222;
+
+
+}
+nav>ul>li {
+    display: inline-block;
+}
+ul li:hover > ul {
+  display: block; /* 滑鼠滑入母選單後，顯示子選單 */
+}
+ul li {
+  position: relative; /* 使子選單依照母選單的座標顯示 */
+}
+nav ul li a:only-child{
+  background: none;
+  background-color: white;
+}
+ul ul {
+  color: white;
+  position: absolute;
+  top: 100%;
+  list-style: none;
+  display: none;
+  background: url(detail.png) bottom right no-repeat;
+}
+li li {
+ margin-left:  -25px;
+  padding-top: 5px;
+}
+ol ul, ul ol, ul ul, ol ol {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+}
+li {
+  display: inline-block;
+}
+ul a{
+  padding-right: 30px;
+  color: #222;
+   text-decoration:none;
+  text-transform: uppercase;
+      font: 1.286em/1.056em "Trade-Gothic-W-Bold", Arial, Helvetica, sans-serif;
+    word-spacing: 1px;
+}
+footer {
+    width: 100%;
+    height: 200px;
+    background: rgb(38, 38, 38);
+    padding: 0px 0px 0px 0px;
+    margin-top: 0px;
+    text-align: center;
+
+}
+.social {
+
+
+  padding-top: 20px;
+}
+
+.social img {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 010px;
+    background-color: rgb(38, 38,38);
+}
+
+#logo{
+
+  width: 150px;
+  height:150px;
+}
+
+
+#special {
+    padding-left: 15px;
+}

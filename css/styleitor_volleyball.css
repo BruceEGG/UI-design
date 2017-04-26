@@ -1,0 +1,269 @@
+
+}
+body {
+    margin: 0;
+    background color : white;
+}
+
+
+@font-face {
+
+  font-family: 'cwTeXFangSong';
+  font-style: normal;
+  src: url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.eot);
+  src: url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.ttf) format('truetype');
+}
+.sidebar-follow ul{
+
+
+ padding-top: 20px;
+  padding-right: : 60px;
+
+}
+.sidebar-follow  li img {
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+    margin-right: 100px;
+    padding-right: : 50px;
+
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+header {
+
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: 150px;
+}
+
+li img {
+    width: 20px;
+    height: 20px;
+
+}
+
+ul, menu, dir {
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.logo{
+ margin-left :300px;
+  float: left;
+
+}
+
+nav {
+
+      float: right;
+    display: inline-block;
+    height: 75px;
+    width: 1200px;
+    margin-top: 60px;
+    margin-right:200px;
+      color: #222;
+
+
+}
+nav>ul>li {
+    display: inline-block;
+}
+ul li:hover > ul {
+  display: block; /* 滑鼠滑入母選單後，顯示子選單 */
+}
+ul li {
+  position: relative; /* 使子選單依照母選單的座標顯示 */
+}
+nav ul li a:only-child{
+  background: none;
+  background-color: white;
+}
+ul ul {
+  color: white;
+  position: absolute;
+  top: 100%;
+  list-style: none;
+  display: none;
+  background: url(detail.png) bottom right no-repeat;
+}
+li li {
+ margin-left:  -25px;
+  padding-top: 5px;
+}
+ol ul, ul ol, ul ul, ol ol {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+}
+li {
+  display: inline-block;
+
+}
+ul a{
+  padding-right: 30px;
+  color: #222;
+   text-decoration:none;
+  text-transform: uppercase;
+      font: 1.286em/1.056em "Trade-Gothic-W-Bold", Arial, Helvetica, sans-serif;
+    word-spacing: 1px;
+}
+footer {
+    width: 100%;
+    height: 200px;
+    background: rgb(38, 38, 38);
+    padding: 0px 0px 0px 0px;
+    margin-top: 0px;
+    text-align: center;
+
+}
+.social {
+
+
+  padding-top: 20px;
+}
+
+.social img {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 010px;
+    background-color: rgb(38, 38,38);
+}
+
+#logo{
+
+  width: 150px;
+  height:150px;
+}
+
+
+#special {
+    padding-left: 15px;
+}
+.fire{
+display: block;
+height: 1000px;
+margin-bottom: 0px;
+}
+.fire img{
+  padding-bottom: 0px;
+  width: 100%;
+
+}
+
+.block{
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+  height: 600px;
+}
+.hm{
+  display: block;
+  height: 500px;
+  background-image: url(https://i.screenshot.net/p/91j6et6?2956ffe05f7f61348927be18d8f11d6f);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            margin-bottom: 5px;
+
+
+}
+.hm img{
+  width: 100%;
+  height: 1000px;
+}
+
+
+
+
+.block ol, ul {
+    list-style: none;
+}
+
+.block ul.service li {
+    padding: 20px 30px;
+}
+.block li img{
+
+  width: 100px;
+  height: 100px;
+}
+ li {
+  display: inline-block;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.block li p{
+     font-family: 'cwTeXFangSong', serif;
+  word-spacing: 1px;
+}
+
+.col-4{
+ width: 236px;
+ height: 70px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+}
+.ellipsis p{
+    font-family: 'cwTeXFangSong', serif;
+
+}
+.member{
+  margin-top: 10px;
+  width: 100%px;
+  height: 40px;
+  right:550px;
+
+}
+.member h3
+{
+font-size: 40px;
+text-align:center;
+}
+.space{
+  margin-top: 60px;
+  margin-left:550px;
+
+  width: 100%;
+  height: 300px;
+}
+.space img{
+  width: 700px;
+  height: 280px;
+
+
+}
+footer {
+    width: 100%;
+    height: 200px;
+    background: rgb(39, 39,39);
+    padding: 0px 0px 0px 0px;
+    margin-top: 0px;
+    text-align: center;
+
+}
+.social {
+
+
+  padding-top: 20px;
+}
+
+.social img {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 010px;
+    background-color: rgb(38, 38,38);
+}
